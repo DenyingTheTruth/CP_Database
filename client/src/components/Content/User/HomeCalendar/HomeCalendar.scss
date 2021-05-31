@@ -1,0 +1,22 @@
+.home__calendar {
+  padding: 10px;
+}
+
+.cell__report {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.report-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+}

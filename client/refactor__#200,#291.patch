@@ -1,0 +1,32 @@
+Index: src/components/Content/Common/ReportView/ReportTable/ReportTable.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/Content/Common/ReportView/ReportTable/ReportTable.tsx b/src/components/Content/Common/ReportView/ReportTable/ReportTable.tsx
+--- a/src/components/Content/Common/ReportView/ReportTable/ReportTable.tsx	(revision fc345c42d5dde3f53b96ad13fac8a9e7595b43c5)
++++ b/src/components/Content/Common/ReportView/ReportTable/ReportTable.tsx	(revision 2ba86b0e4a2297471d0332e41ab9a5846bee588a)
+@@ -350,7 +350,6 @@
+       );
+     }
+     if (isBracketsCol !== isNegative) return `(${Math.abs(value)})`;
+-    if (isNegative) return `-${Math.abs(value)}`;
+     return `${Math.abs(value)}`;
+   };
+ 
+Index: src/components/Content/Common/ReportView/ReportView.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/Content/Common/ReportView/ReportView.tsx b/src/components/Content/Common/ReportView/ReportView.tsx
+--- a/src/components/Content/Common/ReportView/ReportView.tsx	(revision fc345c42d5dde3f53b96ad13fac8a9e7595b43c5)
++++ b/src/components/Content/Common/ReportView/ReportView.tsx	(revision 2ba86b0e4a2297471d0332e41ab9a5846bee588a)
+@@ -330,6 +330,7 @@
+ 
+   const showDrawer = () => {
+     setVisible(true);
++    tryCheckReport();
+   };
+   const onClose = () => {
+     setVisible(false);

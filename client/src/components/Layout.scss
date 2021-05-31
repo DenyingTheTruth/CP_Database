@@ -1,0 +1,16 @@
+.menu-toggle-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 500000;
+}
+
+.layout-content-wrap {
+  width: calc(100vw - 130px);
+  margin: 24px 16px 0;
+  overflow: initial;
+  transition: 0.2s;
+  &.--menu-opened {
+    width: calc(100vw - 310px);
+  }
+}

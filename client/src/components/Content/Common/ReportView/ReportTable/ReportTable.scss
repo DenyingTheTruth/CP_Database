@@ -1,0 +1,10 @@
+.ant-tabs {
+  overflow: inherit;
+  .table-create {
+    .ant-table-header {
+      position: sticky;
+      top: 55px;
+      z-index: 5;
+    }
+  }
+}

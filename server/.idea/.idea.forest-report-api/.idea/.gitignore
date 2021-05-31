@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/modules.xml
+/projectSettingsUpdater.xml
+/.idea.forest-report-api.iml
+# Datasource local storage ignored files
+/../../../../../../../../:\Users\sgore\RiderProjects\report-app-backend\.idea\.idea.forest-report-api\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

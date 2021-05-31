@@ -1,0 +1,28 @@
+.icon-profile-outlined {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px !important;
+}
+
+.correct-count-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.report-count-mini {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 12px;
+  margin: 0 !important;
+  margin-right: 30px !important;
+}

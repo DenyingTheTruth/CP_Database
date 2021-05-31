@@ -1,0 +1,62 @@
+.editable-row {
+  .ant-form-item-explain {
+    position: absolute;
+    top: 100%;
+    font-size: 12px;
+  }
+
+  &.row-edit {
+    td {
+      background: #b3ada8 !important;
+    }
+    :hover {
+      td {
+        background: #b3ada8 !important;
+      }
+    }
+  }
+
+  .action-button-link {
+    color: #773c1a;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+
+    &[disabled] {
+      color: rgba(0, 0, 0, 0.25);
+      cursor: not-allowed;
+      border: none;
+      background: transparent;
+      pointer-events: none;
+    }
+
+    & button[disabled] {
+      color: rgba(0, 0, 0, 0.25);
+      cursor: not-allowed;
+      border: none;
+      background: transparent;
+      pointer-events: none;
+    }
+  }
+}
+
+.inline-table-form {
+  padding: 15px 15px 0 15px;
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  transition: all 1s;
+  & > div {
+    align-self: center;
+    padding-left: 11px;
+    &:nth-child(-n + 3) {
+      width: 100%;
+      padding-left: 0;
+      height: 56px;
+    }
+    &:last-child {
+      padding-left: 0;
+      justify-self: end;
+    }
+  }
+}

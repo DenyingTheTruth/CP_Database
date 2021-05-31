@@ -1,0 +1,52 @@
+.deadlines {
+  &__grid-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    margin-bottom: 20px;
+  }
+  &__calendar {
+    min-width: 120px;
+  }
+}
+
+.editable-row {
+  &.row-copy {
+    td {
+      background: rgba(98, 50, 22, 0.9) !important;
+      color: white !important;
+    }
+    :hover {
+      td {
+        background: rgba(98, 50, 22, 0.9) !important;
+        color: white !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 1700px) {
+  .deadlines__grid-row.vault {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1635px) {
+  .deadlines__grid-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+  }
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.gap-20 {
+  gap: 20px;
+}
